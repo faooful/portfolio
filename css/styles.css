@@ -356,6 +356,41 @@ section.name-info {
     width: 58%;
 }
 
+.landscape {
+  height: 100%;
+  width: auto;
+}
+
+.portrait {
+  height: auto;
+  width: 100%;
+}
+
+#gallery-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0;
+}
+#gallery-r {
+  float: left;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0;
+}
+
+#gallery-l img, #gallery-r img {
+  width: 100%;
+}
+
 /***** web ends *****/
 
 /***** design ends *****/
