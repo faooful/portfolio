@@ -41,8 +41,7 @@
 <body>
   <div class="page-wrapper">
 
-    <header>
-
+    <header class="headroom">
       <div class="container">
 
         <aside>
@@ -75,7 +74,7 @@
             <li> <a href="index.html">Home</a></li>
             <li> <a href="design.php">Design</a></li>
             <li> <a href="web.html">Web</a></li>
-            <li> <a href="index.html">Contact</a></li>
+            <li> <a href="#contact">Contact</a></li>
           </ul>
       </nav>
       </div>
@@ -114,12 +113,13 @@
       </div>
 
       <span class="contacttitle">Get in touch.</span>
+      <div id="contact"></div>
       <span class="contactdescription">Got an idea for something we could both work on? Email me at:</span>
       <span class="email">faooful@gmail.com</span>
     </section>
 
     <footer class="container">
-      <p>Copyright © 2013 Joseph Williams.</p>
+      <p>Copyright © 2014 Joseph Williams.</p>
     </footer>
 
   </div>
@@ -138,6 +138,16 @@
   	});
 </script>
 <!-- Lazy Load End -->
+
+<script src="js/headroom.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+// grab an element
+var myElement = document.querySelector("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init(); 
+</script>
 
 <script src="js/scroll.js" charset="utf-8"></script>
 

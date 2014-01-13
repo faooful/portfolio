@@ -34,11 +34,6 @@ a:hover { color: #000; }
     transition: all 1s;
 }
 
-.header-container {
-    padding: 4em 1.5em;
-    border-bottom: 1px solid #cecece;
-}
-
 header {
   background: #f6f6f6;
   height: 58px;
@@ -115,7 +110,7 @@ header nav ul li {
   cursor: pointer;
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
   color: #4f9fe9;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -156,7 +151,7 @@ section .name-info span.mybio {
   padding-top: 20px;
 }
 
-span.cv {
+.cv {
   color: #1a1a1a;
   display: block;
   font-size: 1em;
@@ -167,7 +162,7 @@ span.cv {
   cursor: pointer;
 }
 
-span.cv :hover {
+.cv a:hover {
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
@@ -369,9 +364,44 @@ section .name-info span.designbio {
   padding-bottom: 30px;
 }
 
+.landscape {
+  height: 100%;
+  width: auto;
+}
+
+.portrait {
+  height: auto;
+  width: 100%;
+}
+
 #gallery {
     height: auto;
     overflow: hidden;
+}
+
+#gallery-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0;
+}
+#gallery-r {
+  float: right;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0;
+}
+
+#gallery-l img, #gallery-r img {
+  width: 100%;
 }
 
 .image {
