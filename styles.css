@@ -305,29 +305,10 @@ section.contact {
   font-size: 35px;
 }
 
-.preciselogocontainer {
-  width: 100%;
-}
-
 .preciselogo {
-  height: 50px;
   margin: 0 auto;
-  display: block;
-  padding-top: 30px;
-  opacity: 0.4;
-  -webkit-transition: 0.2s ease-out;
-  -moz-transition: 0.2s ease-out;
-  -ms-transition: 0.2s ease-out;
-  -o-transition: 0.2s ease-out;
-  transition: 0.2s ease-out;
-}
-
-.preciselogo:hover {
-  opacity: 0.6;
-  -webkit-transform: scale(1.1); 
-  -moz-transform:    scale(1.1);
-  -ms-transform:     scale(1.1); 
-  -o-transform:      scale(1.1);
+  width: 100px;
+  height: 100px;
 }
 
 .cta1:hover a   {
@@ -447,7 +428,7 @@ section.name-info {
 
 /***** web ends *****/
 
-/***** design starts *****/
+/***** design ends *****/
 
 section .name-info span.designbio {
   padding-bottom: 30px;
@@ -516,13 +497,11 @@ section .name-info span.designbio {
 
 /***** design ends *****/
 
-/***** footer starts *****/
-
 footer {
   clear: both;
   text-align: center;
   cursor: default;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 footer p {
@@ -531,6 +510,4 @@ footer p {
   font-size: 11px;
   line-height: 20px;
 }
-
-/***** footer ends *****/
 

@@ -77,8 +77,16 @@ article.whatimabout1 {
     }
 
     header nav ul {
-    width: 87%;
+    width: 90%;
     }
+
+    .headroom--unpinned {
+      top: -116px;
+    }
+
+    section.container {
+  margin-top: 120px;
+}
 }
 
 @media (max-width: 320px) {
@@ -100,7 +108,15 @@ header {
 }
 
     header nav ul {
-    width: 100%;
+    width: 99%;
     }
+
+    .headroom--unpinned {
+  top: -116px;
+}
+
+section.container {
+  margin-top: 120px;
+}
 
 }

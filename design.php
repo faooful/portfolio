@@ -221,4 +221,14 @@ $(document).ready(function(){
 </script>
 <!-- Lazy Load End -->
 
+<script src="js/headroom.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+// grab an element
+var myElement = document.querySelector("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init(); 
+</script>
+
 </html>
