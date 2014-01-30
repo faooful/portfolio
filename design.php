@@ -92,7 +92,7 @@
       <div class="name-info">
         <span class="designtitle">Design</span>
         <img class="designicon" src="images/designicon.png"></img>
-        <span class="designbio">Here is a colaboration of my Photoshop and Illistrator work.</span>
+        <span class="designbio">Here is a colaboration of my Photoshop and Illustrator work.</span>
       </div>
 
       <div class="gallery">

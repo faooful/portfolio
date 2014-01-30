@@ -2,7 +2,14 @@
 /* SCREEN */
 
 @media (max-width: 1900px) {
-
+  #gallery-l {
+  width: 40%;
+  padding-left: 10%
+}
+#gallery-r {
+  width: 40%;
+  float: left;
+}
 }
 
 @media (max-width: 1620px) {
@@ -52,6 +59,7 @@
 .cta2 {
     margin-top: 0px;
 }
+
  
 }
 
@@ -67,6 +75,15 @@ article.whatimabout1 {
 
 .cta2 {
     margin-top: 0px;
+}
+
+  #gallery-l {
+  width: 50%;
+  padding-left: 0px;
+}
+#gallery-r {
+  width: 50%;
+  float: right;
 }
 
 }
