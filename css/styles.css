@@ -34,6 +34,8 @@ a:hover { color: #000; }
     transition: all 1s;
 }
 
+/***** index starts *****/
+
 header {
   top: 0;
   left: 0;
@@ -58,13 +60,6 @@ header {
   width: 1000px;
   margin: 0 auto;
 }
-
-/***** arrow starts *****/
-
-
-/***** arrow ends *****/
-
-/***** index starts *****/
 
 ul.social {
   list-style: none;
@@ -104,17 +99,19 @@ ul.social li a .social_icon img:hover {
   transition: 0.3s ease;
 }
 
-header nav {
-  position: relative;
+nav {
+  top: 0;
+  transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
-header nav ul {
+nav ul {
   list-style: none;
   float: right;
   padding: 22px 0px 0px 0px;
 }
 
-header nav ul li {
+nav ul li {
   float: left;
   margin-left: 28px;
   position: relative;
@@ -124,7 +121,7 @@ header nav ul li {
   cursor: pointer;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
   color: #4f9fe9;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -183,15 +180,16 @@ section .name-info span.mybio {
   width: 50px;
   border: 2px solid #4f9fe9;
   cursor: pointer;
-}
-
-.cv a:hover {
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
-  color: #4f9fe9;
+}
+
+.cv:hover {
+  background: #4F9FE9;
+  color: #FFF;
 }
 
 .cta1 {
@@ -234,7 +232,6 @@ section .name-info span.mybio {
 }
 
 .abouttitle {
-  border-top: 1px solid #a8a8a8;
   display: block;
   font-size: 30px;
   text-align: center;
