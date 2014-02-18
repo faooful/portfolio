@@ -102,7 +102,7 @@ ul.social li a .social_icon img:hover {
 nav {
   top: 0;
   transition: all .5s;
-  -webkit-transition: all .5s;
+  -webkit-transition: all .3s;
 }
 
 nav ul {
@@ -121,18 +121,16 @@ nav ul li {
   cursor: pointer;
 }
 
-nav ul li a:hover {
-  color: #4f9fe9;
+nav ul li a {
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
-    border-left: 1px solid #4f9fe9;
-  border-right: 1px solid #4f9fe9;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #4f9fe9;
 }
 
 .myimg {
@@ -329,8 +327,8 @@ section.contact {
 }
 
 .cta1:hover a   {
-  border-left: 1px solid #1a1a1a;
-  border-right: 1px solid #1a1a1a;
+  border-left: 2px solid #1a1a1a;
+  border-right: 2px solid #1a1a1a;
   padding-left: 5px;
   padding-right: 5px;
   text-decoration: none;
@@ -342,8 +340,8 @@ section.contact {
 }
 
 .cta2:hover a   {
-  border-left: 1px solid #1a1a1a;
-  border-right: 1px solid #1a1a1a;
+  border-left: 2px solid #1a1a1a;
+  border-right: 2px solid #1a1a1a;
   padding-left: 5px;
   padding-right: 5px;
   text-decoration: none;
@@ -375,6 +373,8 @@ img.designicon {
 }
 
 .project {
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0 20px 0 20px;
 }
 
@@ -531,4 +531,3 @@ footer p {
 }
 
 /***** footer ends *****/
-
